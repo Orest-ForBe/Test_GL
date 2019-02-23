@@ -63,7 +63,7 @@ int main(int argc, char **argv)
     return 0;
   }
 
-  mainWindow = SDL_CreateWindow("Minecraft fork C++", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_OPENGL /*| SDL_WINDOW_FULLSCREEN*/);
+  mainWindow = SDL_CreateWindow("TEST_GLLLLL", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_OPENGL /*| SDL_WINDOW_FULLSCREEN*/);
 
   if (!mainWindow)
   {
@@ -89,7 +89,7 @@ int main(int argc, char **argv)
 
   IMG_Init(IMG_INIT_PNG | IMG_INIT_JPG | IMG_INIT_WEBP);
 
-  SDL_ShowCursor(0);
+  SDL_ShowCursor(1);
 
   while (1)
   {
