@@ -1,7 +1,7 @@
 /*
  * main.cpp
  *
- *  Created on: 23 лют. 2019 р.
+ *  Created on: 23 пїЅпїЅпїЅ. 2019 пїЅ.
  *      Author: ForBe
  */
 #include <windows.h>
@@ -15,7 +15,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 int main(int argc, char **argv)
 #endif
 {
-
+  // Main init
   return 0;
 }
 
